@@ -16,9 +16,7 @@ const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <Link href="/components">
-          <button type="button">next</button>
-        </Link>
+
         <CustomButton
           title="Sign In"
           btnType="button"
