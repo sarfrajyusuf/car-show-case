@@ -1,4 +1,3 @@
-"use client";
 import { CarCard, CustomFilter, Hero, SearchBar } from "@/components";
 import { fetchcars } from "@/utils";
 import Image from "next/image";
