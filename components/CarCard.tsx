@@ -25,7 +25,6 @@ const CarCard = ({ car }: CarCardProps) => {
 
   const carRent = calculateCarRent(city_mpg, year);
   const [isOpen, setIsOpen] = useState(false);
-  console.log("isopen,=======");
 
   return (
     <div className="car-card group">
@@ -41,7 +40,7 @@ const CarCard = ({ car }: CarCardProps) => {
       </p>
       <div className="relative w-full h-40 my-3 object-contain">
         <Image
-          src={generateCarImageUrl(car)}
+          src="/hero.png"
           alt="hero"
           fill
           priority

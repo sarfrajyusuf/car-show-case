@@ -29,3 +29,10 @@ export interface Icars {
   transmission: string;
   year: number;
 }
+
+// export interface IUser{
+//   name: string;
+//   email: string;
+//   password: string;
+
+// }
